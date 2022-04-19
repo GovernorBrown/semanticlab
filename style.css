@@ -1,0 +1,159 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: italic;
+   }
+   
+   li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+   }
+   
+   /* NAVBAR STYLING STARTS */
+   
+   .navbar {
+    padding: 20px;
+    background-color: red;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    font-size: 18px;
+   }
+   .menu li {
+    padding: 5px 0px;
+   }
+   
+   
+   /*RESPONSIVE NAVBAR MENU STARTS*/
+   
+   /* APPLYING MEDIA QUERIES */
+   @media only screen and (max-width: 768px) /*SETS THE WIDTH THAT SCREEN MUST BE TO SHOW ENTIRE HEADER*/{
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:red;
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding: 16px 0;
+   }
+   .menu li {
+    margin-top: 12px;
+   }
+   
+   }
+   body, html {
+     height: 100%;
+   }
+   
+   body, html {
+       height: 100%;
+   }
+   
+   /* HERO IMAGE */
+   .hero-image {
+     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),/* MAKES THE HERO IMAGE LESS BRIGHT IN COMPARISON TO THE WORDS ON HERO */
+   url("Atlanta_Skyline_from_Buckhead.jpeg");
+   
+     /* Set a specific height */
+     height: 50%; /*PART OF THE REASON I HAVE SUCH A LARGE BLANK SPACE FOR HOME PAGE. SET TO EQUAL 50% OF THE PAGE*/
+   
+     /* Position and center the image to scale nicely on all screens */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+   }
+   
+   /* Place text in the middle of the image */
+   .hero-text {
+     text-align: center;
+     position: absolute;/*POSITION WILL NOT MOVE*/
+     top: 50%;/*BRINGS IT TO THE MIDDLE OF THE PAGE FROM TOP*/
+     left: 50%;/*BRINGS IT TO THE MIDDLE OF THE PAGE FROM THE TOP CORNER*/
+     transform: translate(-50%, -50%); 
+     color: white;
+   }
+   
+   /*START OF CONTACT PAGE*/
+   /* Style inputs with type="text", select elements and textareas */
+   input[type=text], select, textarea {
+     width: 100%; /* Full width */
+     padding: 12px; /* Some padding */ 
+     border: 1px solid black; /* black border */
+     border-radius: 4px; /* Rounded borders */
+     box-sizing: border-box; /* Make sure that padding and width stays in place */
+     margin-top: 6px; /* Add a top margin */
+     margin-bottom: 16px; /* Bottom margin */
+     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+   }
+   
+   /* Style the submit button with a specific background color etc */
+   input[type=submit] {
+     background-color: red;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   /* Add a background color and some padding around the form */
+   .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+   }
+   
+   /* Unordered list styling*/
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: red;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   .grid-container {
+     display: grid;
+     grid-template-columns: auto auto; /* DISTINGUISHES # OF COLUMNS IN GRID AS 2*/
+     padding: 10px; /* ADDS A BIT OF PADDING TO CONTAINER */
+   }
+   
+   .grid-item {
+     padding: 20px; /* ADDS PADDING TO GRID; GIVES MORE PADDING TO NAVBAR/HEADER */
+   }
+   
+   footer {  
+     position:relative;
+     width:100%;
+     bottom:0px;
+     padding-top: 0px;
+   }
+   
