@@ -67,7 +67,7 @@
    .hero-image {
      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),/* MAKES THE HERO IMAGE LESS BRIGHT IN COMPARISON TO THE WORDS ON HERO */
-   url("Atlanta_Skyline_from_Buckhead.jpeg");
+   url("/Users/GovernorBrown/Documents/semanticlab/assets/Atlanta_Skyline_from_Buckhead.jpeg");
    
      /* Set a specific height */
      height: 50%; /*PART OF THE REASON I HAVE SUCH A LARGE BLANK SPACE FOR HOME PAGE. SET TO EQUAL 50% OF THE PAGE*/
